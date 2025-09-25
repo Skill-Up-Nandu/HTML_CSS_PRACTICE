@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  gap: 10px; /* space between columns */
+}
+
+/* Three-column layout */
+.column {
+  flex: 1; /* each column takes equal width */
+  background-color: #add8e6;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+/* Responsive: on screens less than or equal to 600px, stack columns vertically */
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
