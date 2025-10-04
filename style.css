@@ -1,0 +1,143 @@
+/* global */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: content-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+.logo {
+    height: fit-content;
+    padding: 2px;
+    width: 100%;
+    background-color: white;
+    text-align: right;
+}
+
+#blue {
+    color: rgba(5, 5, 87, 0.938);
+    margin-right: 5%;
+}
+
+#orange {
+    color: orangered;
+    margin-right: 10.5%;
+}
+
+/* main */
+
+nav {
+    height: 10vh;
+    width: 100%;
+    background-color: #eb5e28;
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+li a {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+
+.frame {
+    height: 50%;
+    width: 20%;
+    position: relative;
+    right: 20%;
+    top: 20%;
+    background-image: url("name.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    border-radius: 50%;
+    z-index: -1;
+
+}
+
+.hero {
+    height: 80vh;
+    width: 50%;
+    position: relative;
+    left: 20%;
+    top: 40%;
+    z-index: -1;
+}
+
+.hero-content {
+
+    /* font-size: larger; */
+}
+
+#tagline {
+    margin-top: 20px;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* sections */
+
+/* 1. education */
+
+.edu {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.edu-heading {
+    text-align: center;
+    color: #eb5e28;
+}
+
+#education {
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.edu-card {
+    height: 300px;
+    width: 20%;
+    border: 3px solid rgba(5, 5, 87, 0.938);
+    border-radius: 25px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10%;
+    color: #252422;
+    
+}
+
+#kuk-logo {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+#edu-purpose {
+    font-weight: 100;
+}
+
+.edu-title {
+    margin-top: 10px;
+}
